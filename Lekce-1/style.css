@@ -1,0 +1,49 @@
+body {
+  background-color: antiquewhite;
+  color: brown;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+.osobni-informace,
+.zivotopis,
+.vzdelani,
+.dilo,
+.zapati {
+  width: 50%;
+  margin: 0 auto;
+}
